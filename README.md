@@ -48,6 +48,7 @@ Players grouped by country and position
 
 Additionally, basic test cases are included to ensure function correctness.
 
+
 **🧪 Testing**
 The script includes basic assertions to validate:
 
@@ -59,6 +60,7 @@ Integrity of specific player data
 
 
 test_all_functions()
+
 
 **📌 Notes**
 Some entries may have missing data (e.g., missing player number or caps).
