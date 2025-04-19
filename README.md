@@ -1,4 +1,4 @@
-**⚽ Football Squad Data**
+****⚽ Football Squad Data****
 
 This project provides a simple Python script to analyze historical football squad data. The dataset includes player-level information such as name, position, club, country, and international appearances.
 
@@ -16,22 +16,27 @@ club	Club the player played for during that year
 country	Player's nationality
 club_country	Country where the club is based
 year	The year the player was part of the national squad
+
 **🧠 Features**
+
 **1. Convert Player Data to Dictionaries**
 Converts raw list data into structured dictionaries for easier access and processing.
 
 
 convert_players_to_dict(players_list)
+
 **2. Group Players by Position**
 Organizes players by their playing position (e.g., Goalkeepers, Midfielders).
 
 
 group_players_by_position(players_list)
+
 **3. Group Players by Country and Position**
 Creates a nested structure grouping players by nationality and then by position.
 
 
 group_players_by_country_and_position(players_list)
+
 **✅ Example Output**
 The script prints pretty-formatted output of:
 
